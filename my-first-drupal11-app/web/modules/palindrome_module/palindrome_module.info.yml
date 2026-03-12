@@ -1,0 +1,5 @@
+name: "Palindrome Module"
+type: module
+description: "Simple palindrome checker module"
+package: Custom
+core_version_requirement: ^10 || ^11

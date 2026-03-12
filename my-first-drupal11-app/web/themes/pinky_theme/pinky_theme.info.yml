@@ -1,0 +1,13 @@
+name: pinky_theme
+type: theme
+base theme: claro
+description: A flexible theme for basic Drupal lessionc
+package: Custom
+core_version_requirement: ^10 || ^11
+libraries:
+  - pinky_theme/global-styling
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

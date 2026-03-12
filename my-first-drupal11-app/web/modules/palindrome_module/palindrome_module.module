@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Palindrome Module module.
+ */
+
+ function palindrome_module_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+
+  switch ($route_name) {
+
+    case 'help.page.palindrome_module':
+      return '<p>This module checks whether a given text is a palindrome.</p>
+              <p>A palindrome is a word that reads the same forward and backward (example: madam).</p>';
+
+  }
+}

@@ -1,0 +1,10 @@
+palindrome_module.form:
+  path: "/palindrome-check"
+  defaults:
+    _form: '\Drupal\palindrome_module\Form\PalindromeForm'
+    _title: "Palindrome Checker"
+  requirements:
+    _permission: "access content"
+  options:
+    _admin_route: FALSE
+    # _theme: false
